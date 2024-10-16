@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main{
+    background-color: rgb(219, 219, 219);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 16px 20px rgb(192, 192, 192);
+    transition: 0.2s;
+}
+main:hover{
+    border: 5px solid rgb(129, 129, 129);
+    background-color: rgb(219, 219, 219);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 16px 20px rgb(192, 192, 192);
+    transition: 0.2s;
+}
